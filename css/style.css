@@ -15,7 +15,7 @@ header {
 	background: #ffffff;
 }
 
-.header-container{
+.header-container {
 	width: 80%;
 	display: flex;
 	justify-content: space-between;
@@ -23,13 +23,13 @@ header {
 	padding: 24px 0 24px 0;
 }
 
-.link{
+.link {
 	display: flex;
 	align-items: center;
 	gap: 24px;
 }
 
-.logo-social-network{
+.logo-social-network {
 	height: 30px;
 }
 
@@ -42,7 +42,7 @@ section {
 	padding: 80px;
 }
 
-main .infos-container{
+main .infos-container {
 	display: flex;
 	width: 64%;
 	margin: auto;
@@ -62,22 +62,22 @@ span {
 	color: #a5b4fc;
 }
 
-.infos-container p{
+.infos-container p {
 	margin-top: 24px;
 	margin-bottom: 64px;
 }
 
-.projects-section{
+.projects-section {
 	width: 100%;
 	background: #ffffff;
 	text-align: center;
 }
 
-.projects-section h2{
+.projects-section h2 {
 	padding-bottom: 80px;
 }
 
-.projects-container{
+.projects-container {
 	display: flex;
 	flex-wrap: wrap;
 	width: 64%;
@@ -85,7 +85,7 @@ span {
 	gap: 16px;
 }
 
-.btn-container{
+.btn-container {
 	margin-top: 80px;
 }
 
@@ -105,13 +105,13 @@ span {
 	color: #ffffff;
 }
 
-.text-info{
+.text-info {
 	border-right: 1px solid #a5b4fc;
 	border-bottom: 1px solid #a5b4fc;
 	padding: 24px 16px 48px 24px;
 }
 
-.infos-services h1{
+.infos-services h1 {
 	margin-bottom: 24px;
 }
 
@@ -122,4 +122,3 @@ span {
 ul {
 	padding-left: 80px;
 }
-
