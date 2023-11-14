@@ -1,25 +1,49 @@
 .paysages-section,
 .portraits-section {
-	background: #fff;
+  background: #fff;
 }
 
 .paysages-grid-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 300px 300px 300px;
-	gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
 }
 
 .portraits-section-grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 300px 300px;
-	gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
 }
 
 .paysages-grid-container img,
 .portraits-section-grid img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-link {
+  background-color: rgb(48, 66, 74, 0.5);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.img-container:hover .img-link {
+  display: flex;
 }
