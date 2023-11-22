@@ -97,6 +97,67 @@ span {
 	padding: 20px;
 }
 
+.form-section {
+	background: #1f2039;
+}
+
+.form-section h2 {
+	color: #a5b4fc;
+	text-align: center;
+}
+
+.form-section form {
+	padding-top: 80px;
+	width: 64%;
+	margin: auto;
+}
+
+.flex {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+.flex .flex-column {
+	width: 100%;
+}
+
+input,
+textarea {
+	padding: 16px;
+	border-radius: 5px;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-section label {
+	color: white;
+}
+
+form .btn-action-container {
+	padding-top: 16px;
+	text-align: center;
+}
+
+form .btn {
+	padding: 20px 64px;
+	border-radius: 24px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	font-size: 0.9rem;
+	border: none;
+	background: linear-gradient(#8e86b5, #acaeed);
+	text-transform: uppercase;
+}
+
+form .btn:hover {
+	background: #8e86b5;
+}
+
 /* Abbout */
 
 .infos-services {
